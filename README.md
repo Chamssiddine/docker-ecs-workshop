@@ -11,7 +11,7 @@ Simple Python/Flask web application that shows container name and background col
 
 2. Navigate to the project directory:
    ```
-   cd -docker-devops-MasterClass
+   cd docker-ecs-workshop
    ```
 
 3.  Open the project in Visual Studio Code:
