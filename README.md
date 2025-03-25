@@ -19,8 +19,6 @@ Simple Python/Flask web application that shows container name and background col
    code .
    ```
 
-### Dockerfile Explanation:
-
 
 ### Docker Commands:
 
