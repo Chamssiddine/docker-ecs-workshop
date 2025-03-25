@@ -91,16 +91,6 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 # Push the image to AWS ECR
 docker push 438756903535.dkr.ecr.us-east-1.amazonaws.com/workshop:latest
 ```
-## Step 3: Verify Deployment
-
-Once the Terraform deployment is complete, you can verify that the ECS service is running using AWS CLI or AWS Console:
-
-```sh
-aws ecs list-clusters --region us-east-1
-aws ecs list-services --cluster workshop-cluster --region us-east-1
-```
-
-Check the public IP assigned to the task and access your application via a web browser.
 
 ## Cleanup
 To remove all deployed resources, run:
@@ -108,4 +98,3 @@ To remove all deployed resources, run:
 ```sh
 terraform destroy -auto-approve
 ```
-
